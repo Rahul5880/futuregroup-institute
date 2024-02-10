@@ -1,0 +1,32 @@
+.bg-primary {
+    /* background-color: #0093E9; */
+    /* background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+    /* background-color: black; */
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+}
+
+.my-icon {
+    font-size: 80px !important;
+    color: #130f40;
+}
+
+.service-container {
+    border: 5px solid #130f40;
+    padding: 25px;
+    cursor: pointer;
+    transition: 200ms all ease-in-out;
+}
+
+.service-container:hover {
+    background: black;
+    color: #76FF03;
+    border-radius: 20px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
